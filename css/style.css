@@ -1,6 +1,6 @@
 :root {
     /* Основные цвета цветочного магазина */
-    --primary-color: #ff9a8b;        /* Ярко-розовый - для цветов и акцентов */
+    --primary-color: #e91e63;        /* Ярко-розовый - для цветов и акцентов */
     --secondary-color: #4caf50;      /* Сочный зеленый - листья и растения */
     --accent-color: #ff9800;         /* Теплый оранжевый - осенние цветы */
     --soft-pink: #f8bbd9;            /* Нежно-розовый - фоновый */
@@ -26,7 +26,6 @@
     --border-radius: 12px;
     --transition: all 0.3s ease;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -719,5 +718,6 @@ footer {
     background: var(--lavender);
     color: var(--text-dark);
 }
+
 
 
