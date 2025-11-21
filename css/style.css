@@ -792,10 +792,10 @@ footer {
     background: var(--lavender);
     color: var(--text-dark);
 }
-/* Отступ снизу для третьей карточки с изображением */
-.product-card:nth-child(3) .product-image-container {
-    margin-bottom: 60px;
+.product-card:last-child .product-image-container {
+    margin-bottom: 25px;
 }
+
 
 
 
