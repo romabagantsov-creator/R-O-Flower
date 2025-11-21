@@ -1,13 +1,13 @@
 :root {
-    --primary-color: #e91e63;
-    --secondary-color: #4caf50;
-    --accent-color: #ff9800;
-    --gradient-start: #d4461b;
-    --gradient-end: #fccd32;
-    --text-dark: #2d3436;
-    --text-light: #fff;
-    --bg-light: #477eb6;
-    --bg-white: #59ff67;
+    --primary-color: #e91e63; /* Розовый - для акцентов и кнопок */
+    --secondary-color: #4caf50; /* Зеленый - основной цвет растений */
+    --accent-color: #ff9800; /* Оранжевый - для выделения */
+    --gradient-start: #d4461b; /* Темно-оранжевый */
+    --gradient-end: #fccd32; /* Желтый */
+    --text-dark: #2d3436; /* Темно-серый для текста */
+    --text-light: #fff; /* Белый текст */
+    --bg-light: #477eb6; /* Голубой */
+    --bg-white: #59ff67; /* Светло-зеленый */
     --shadow: 0 2px 15px rgba(0,0,0,0.1);
     --shadow-hover: 0 8px 25px rgba(0,0,0,0.15);
     --border-radius: 12px;
@@ -703,6 +703,7 @@ footer {
 .notification.info {
     background: #2196f3;
 }
+
 
 
 
