@@ -1,18 +1,32 @@
 :root {
-    --primary-color: #e91e63; /* Розовый - для акцентов и кнопок */
-    --secondary-color: #4caf50; /* Зеленый - основной цвет растений */
-    --accent-color: #ff9800; /* Оранжевый - для выделения */
-    --gradient-start: #d4461b; /* Темно-оранжевый */
-    --gradient-end: #fccd32; /* Желтый */
-    --text-dark: #2d3436; /* Темно-серый для текста */
-    --text-light: #fff; /* Белый текст */
-    --bg-light: #477eb6; /* Голубой */
-    --bg-white: #59ff67; /* Светло-зеленый */
-    --shadow: 0 2px 15px rgba(0,0,0,0.1);
-    --shadow-hover: 0 8px 25px rgba(0,0,0,0.15);
+    /* Основные цвета цветочного магазина */
+    --primary-color: #e91e63;        /* Ярко-розовый - для цветов и акцентов */
+    --secondary-color: #4caf50;      /* Сочный зеленый - листья и растения */
+    --accent-color: #ff9800;         /* Теплый оранжевый - осенние цветы */
+    --soft-pink: #f8bbd9;            /* Нежно-розовый - фоновый */
+    --lavender: #e1bee7;             /* Лавандовый - цветочный акцент */
+    --cream: #fff8e1;                /* Кремовый - нейтральный фон */
+    --earth-brown: #8d6e63;          /* Землистый коричневый - горшки, стебли */
+    
+    /* Градиенты */
+    --gradient-start: #ff80ab;       /* Розовый градиент */
+    --gradient-end: #ea80fc;         /* Фиолетовый градиент */
+    
+    /* Текст */
+    --text-dark: #4e342e;            /* Темно-коричневый для читаемости */
+    --text-light: #fff;              /* Белый текст */
+    
+    /* Фоны */
+    --bg-light: #f5f5f5;             /* Светло-серый фон */
+    --bg-white: #ffffff;             /* Чистый белый */
+    
+    /* Эффекты */
+    --shadow: 0 2px 15px rgba(142, 68, 173, 0.1);
+    --shadow-hover: 0 8px 25px rgba(142, 68, 173, 0.15);
     --border-radius: 12px;
     --transition: all 0.3s ease;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -30,8 +44,8 @@ body {
 
 /* Стили для логотипа */
 .logo-image {
-    height: 100px; /* Регулируйте высоту по необходимости */
-    width: auto; /* Сохраняет пропорции */
+    height: 100px;
+    width: auto;
     transition: var(--transition);
 }
 
@@ -222,19 +236,19 @@ header {
 
 .cta-button:hover,
 .cta-button:focus {
-    background: var(--bg-light);
+    background: var(--soft-pink);
     transform: translateY(-3px);
     box-shadow: var(--shadow-hover);
     color: var(--primary-color);
 }
 
 .cta-button.secondary {
-    background: var(--text-dark);
+    background: var(--earth-brown);
     color: var(--text-light);
 }
 
 .cta-button.secondary:hover {
-    background: #555;
+    background: #7a5c52;
     color: var(--text-light);
 }
 
@@ -276,7 +290,7 @@ section {
 .feature-card {
     text-align: center;
     padding: 3rem 2rem;
-    background: var(--bg-light);
+    background: var(--cream);
     border-radius: var(--border-radius);
     transition: var(--transition);
     box-shadow: var(--shadow);
@@ -290,6 +304,7 @@ section {
 .feature-icon {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
+    color: var(--secondary-color);
 }
 
 .feature-card h3 {
@@ -330,10 +345,11 @@ section {
 .product-image-placeholder {
     width: 100%;
     height: 250px;
+    background: var(--lavender);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--text-light);
+    color: var(--text-dark);
     font-size: 1.3rem;
     font-weight: 600;
 }
@@ -374,7 +390,7 @@ section {
 }
 
 .occasion-card {
-    background: var(--bg-light);
+    background: var(--soft-pink);
     padding: 2rem;
     border-radius: var(--border-radius);
     text-align: center;
@@ -452,7 +468,7 @@ section {
 
 /* ===== FOOTER ===== */
 footer {
-    background: var(--text-dark);
+    background: var(--earth-brown);
     color: var(--text-light);
     padding: 4rem 0 2rem;
 }
@@ -491,7 +507,7 @@ footer {
 }
 
 .footer-section a:hover {
-    color: var(--primary-color);
+    color: var(--soft-pink);
 }
 
 .footer-section address p {
@@ -518,12 +534,12 @@ footer {
 }
 
 .footer-bottom {
-    border-top: 1px solid #444;
+    border-top: 1px solid rgba(255,255,255,0.2);
     padding-top: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #999;
+    color: #ccc;
 }
 
 .payment-methods {
@@ -692,7 +708,7 @@ footer {
 }
 
 .notification.success {
-    background: #4caf50;
+    background: var(--secondary-color);
 }
 
 .notification.error {
@@ -700,13 +716,6 @@ footer {
 }
 
 .notification.info {
-    background: #2196f3;
+    background: var(--lavender);
+    color: var(--text-dark);
 }
-
-
-
-
-
-
-
-
