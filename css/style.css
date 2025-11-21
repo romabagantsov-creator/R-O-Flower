@@ -2,8 +2,8 @@
     --primary-color: #e91e63;
     --secondary-color: #4caf50;
     --accent-color: #ff9800;
-    --gradient-start: #72ac15;
-    --gradient-end: #ff9800;
+    --gradient-start: #d4461b;
+    --gradient-end: #fccd32;
     --text-dark: #2d3436;
     --text-light: #fff;
     --bg-light: #f8f9fa;
@@ -703,4 +703,5 @@ footer {
 .notification.info {
     background: #2196f3;
 }
+
 
