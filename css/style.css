@@ -792,8 +792,9 @@ footer {
     background: var(--lavender);
     color: var(--text-dark);
 }
-.product-card:last-child .product-image-container {
-    margin-bottom: 30px;
+
+.product-card:nth-child(3) .product-image-container img {
+    transform: translateY(25px); /* Для третьей карточки - больше сдвиг */
 }
 
 
