@@ -792,17 +792,20 @@ footer {
     background: var(--lavender);
     color: var(--text-dark);
 }
-
-/* Или если хочешь больше контроля над отдельными карточками */
-.product-card:first-child .product-image-container {
-    margin-top: 0px; /* Больший отступ для первой карточки */
-}
-
-.product-card:nth-child(2) .product-image-container {
-    margin-top: 10px; /* Средний отступ для второй */
-}
-
+/* Отступ снизу для третьей карточки с изображением */
 .product-card:nth-child(3) .product-image-container {
-    margin-top: 30px; /* Меньший отступ для третьей */
+    margin-bottom: 30px;
 }
+
+/* Или если нужно для всех карточек с изображениями */
+.product-card .product-image-container {
+    margin-bottom: 20px;
+}
+
+/* Или конкретно для третьей карточки, если у неё есть особый класс */
+.product-card:last-child .product-image-container {
+    margin-bottom: 25px;
+}
+
+
 
