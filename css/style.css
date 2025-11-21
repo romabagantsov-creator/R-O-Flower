@@ -195,11 +195,11 @@ header {
     text-align: center;
     padding: 120px 20px;
     background: 
-        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), /* Затемняющий градиент */
-        url('./image/flower.jpg') center/cover no-repeat; /* Фоновое изображение */
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+        url('../image/flower.jpg') center/cover no-repeat;
     color: var(--text-light);
     position: relative;
-    min-height: 60vh; /* Минимальная высота секции */
+    min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -723,6 +723,7 @@ footer {
     background: var(--lavender);
     color: var(--text-dark);
 }
+
 
 
 
