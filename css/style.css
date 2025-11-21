@@ -793,14 +793,12 @@ footer {
     color: var(--text-dark);
 }
 
+/* Сдвиг изображения в третьей карточке */
 .product-card:nth-child(3) .product-image-container img {
-    transform: translateY(25px); /* Для третьей карточки - больше сдвиг */
+    transform: translateY(25px);
 }
 
-
-
-
-
-
-
-
+/* Чтобы при наведении тоже работало */
+.product-card:nth-child(3):hover .product-image-container img {
+    transform: translateY(25px) scale(1.05);
+}
