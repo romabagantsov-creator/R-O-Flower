@@ -31,7 +31,7 @@ body {
 
 /* Стили для логотипа */
 .logo-image {
-    height: 80px; /* Регулируйте высоту по необходимости */
+    height: 100px; /* Регулируйте высоту по необходимости */
     width: auto; /* Сохраняет пропорции */
     transition: var(--transition);
 }
@@ -703,6 +703,7 @@ footer {
 .notification.info {
     background: #2196f3;
 }
+
 
 
 
