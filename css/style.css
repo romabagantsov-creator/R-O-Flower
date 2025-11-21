@@ -6,8 +6,8 @@
     --gradient-end: #fccd32;
     --text-dark: #2d3436;
     --text-light: #fff;
-    --bg-light: #f8f9fa;
-    --bg-white: #fff;
+    --bg-light: #477eb6;
+    --bg-white: #59ff67;
     --shadow: 0 2px 15px rgba(0,0,0,0.1);
     --shadow-hover: 0 8px 25px rgba(0,0,0,0.15);
     --border-radius: 12px;
@@ -703,6 +703,7 @@ footer {
 .notification.info {
     background: #2196f3;
 }
+
 
 
 
