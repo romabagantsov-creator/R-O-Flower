@@ -220,7 +220,7 @@ class FloraBloom {
 
         // Имитация отправки формы
         setTimeout(() => {
-            this.showNotification('Сообщение отправлено успешно! Мы свяжемся с вами в ближайшее время.', 'success');
+            this.showNotification('Сообщение отправлено! Мы свяжемся с вами в ближайшее время.', 'success');
             form.reset();
             
             // Восстанавливаем кнопку
@@ -396,3 +396,4 @@ function initLegacySupport() {
 // Глобальные функции для использования в консоли
 window.getCart = () => window.floraBloom ? window.floraBloom.getCart() : [];
 window.clearCart = () => window.floraBloom ? window.floraBloom.clearCart() : null;
+
