@@ -196,7 +196,7 @@ header {
     padding: 120px 20px;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), /* Затемняющий градиент */
-        url('путь/к/твоему-изображению.jpg') center/cover no-repeat; /* Фоновое изображение */
+        url('image/flower.jpg') center/cover no-repeat; /* Фоновое изображение */
     color: var(--text-light);
     position: relative;
     min-height: 60vh; /* Минимальная высота секции */
@@ -723,6 +723,7 @@ footer {
     background: var(--lavender);
     color: var(--text-dark);
 }
+
 
 
 
