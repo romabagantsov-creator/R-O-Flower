@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="R&O Flower - онлайн магазин цветов. Свежие букеты, доставка, индивидуальные композиции. Дарите эмоции с нами!">
     <meta name="keywords" content="цветы, букеты, доставка цветов, флорист, розы, тюльпаны, композиции">
-    <title>FloraBloom - Онлайн магазин цветов | Доставка свежих букетов</title>
+    <title>R&O Flower - Онлайн магазин цветов | Доставка свежих букетов</title>
     
     <!-- Подключение CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -17,7 +17,7 @@
     <header role="banner">
         <nav class="navbar" role="navigation" aria-label="Основная навигация">
             <div class="logo" aria-label="Логотип R&O Flower">
-            <img src="image/logo.png" alt="R&O Flower - магазин цветов" class="logo-image">
+                <img src="image/logo.png" alt="R&O Flower - магазин цветов" class="logo-image">
             </div>
             <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">
                 <span class="sr-only">Меню</span>
@@ -27,10 +27,10 @@
             </button>
             <ul class="nav-links" id="nav-menu">
                 <li><a href="index.html" aria-current="page">Главная</a></li>
-                <li><a href="#popular">Букеты</a></li> <!-- Изменено -->
-                <li><a href="#about">О нас</a></li> <!-- Добавлено -->
-                <li><a href="#contacts">Контакты</a></li> <!-- Изменено -->
-                <li><a href="#delivery">Доставка</a></li> <!-- Добавлено -->
+                <li><a href="#popular">Букеты</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#delivery">Доставка</a></li>
+                <li><a href="#contacts">Контакты</a></li>
             </ul>
         </nav>
     </header>
@@ -41,14 +41,14 @@
             <div class="hero-content">
                 <h1 id="hero-heading">R&O Flower - Дарите эмоции цветами!</h1>
                 <p>Свежие цветы с доставкой по городу. Создаем настроение каждый день</p>
-                <a href="#popular" class="cta-button" role="button"> <!-- Изменено -->
+                <a href="#popular" class="cta-button" role="button">
                     Выбрать букет
                 </a>
             </div>
         </section>
         
         <!-- Секция преимуществ -->
-        <section id="about" class="features" aria-labelledby="features-heading"> <!-- Добавлен id -->
+        <section id="about" class="features" aria-labelledby="features-heading">
             <div class="container">
                 <h2 id="features-heading" class="section-title">Почему выбирают именно нас</h2>
                 <div class="features-grid">
@@ -72,7 +72,7 @@
         </section>
 
         <!-- Секция популярных букетов -->
-        <section id="popular" class="popular" aria-labelledby="popular-heading"> <!-- Добавлен id -->
+        <section id="popular" class="popular" aria-labelledby="popular-heading">
             <div class="container">
                 <h2 id="popular-heading" class="section-title">Популярные букеты</h2>
                 <div class="arrivals-grid">
@@ -116,53 +116,70 @@
             </div>
         </section>
 
-        <!-- Секция поводов -->
-        <section id="delivery" class="occasions" aria-labelledby="occasions-heading"> <!-- Добавлен id -->
+        <!-- Секция доставки -->
+        <section id="delivery" class="occasions" aria-labelledby="delivery-heading">
             <div class="container">
-                <h2 id="occasions-heading" class="section-title">Доставка и оплата</h2> <!-- Изменен заголовок -->
+                <h2 id="delivery-heading" class="section-title">Доставка и оплата</h2>
                 <div class="occasions-grid">
                     <div class="occasion-card">
                         <h3>🚚 Быстрая доставка</h3>
-                        <p>Доставляем за 2 часа по всему городу</p>
+                        <p>Доставляем за 2 часа по всему городу. Работаем без выходных</p>
                     </div>
                     <div class="occasion-card">
                         <h3>💳 Удобная оплата</h3>
-                        <p>Наличные, карты, онлайн-оплата</p>
+                        <p>Наличные, карты, онлайн-оплата. Без скрытых комиссий</p>
                     </div>
                     <div class="occasion-card">
                         <h3>🎁 Бесплатная доставка</h3>
-                        <p>При заказе от 3000 рублей</p>
+                        <p>При заказе от 3000 рублей. Акция действует постоянно</p>
                     </div>
                     <div class="occasion-card">
                         <h3>⏰ Круглосуточно</h3>
-                        <p>Доставка 24/7 для особых случаев</p>
+                        <p>Срочная доставка 24/7 для особых случаев и праздников</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Секция подписки -->
-        <section id="contacts" class="newsletter" aria-labelledby="newsletter-heading"> <!-- Добавлен id -->
+        <!-- Секция контактов -->
+        <section id="contacts" class="newsletter" aria-labelledby="contacts-heading">
             <div class="container">
                 <div class="newsletter-content">
-                    <h2 id="newsletter-heading">Контакты</h2> <!-- Изменен заголовок -->
-                    <div class="footer-grid" style="color: var(--text-light);">
+                    <h2 id="contacts-heading" class="section-title">Наши контакты</h2>
+                    <div class="footer-grid" style="color: var(--text-light); text-align: left; margin-top: 2rem;">
                         <div class="footer-section">
                             <h4>📞 Телефон</h4>
                             <p>+7 (923) 225-62-20</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.9;">Ежедневно с 9:00 до 21:00</p>
                         </div>
                         <div class="footer-section">
                             <h4>📧 Email</h4>
                             <p>roma_bagantsov@vk.com</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.9;">Отвечаем в течение часа</p>
                         </div>
                         <div class="footer-section">
-                            <h4>🕒 Время работы</h4>
-                            <p>Ежедневно 9:00-21:00</p>
+                            <h4>📍 Адрес</h4>
+                            <p>г. Москва, ул. Цветочная, д. 15</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.9;">Самовывоз с 10:00 до 20:00</p>
                         </div>
                         <div class="footer-section">
                             <h4>🚚 Доставка</h4>
-                            <p>Круглосуточно</p>
+                            <p>По всему городу</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.9;">2 часа - стандартная доставка</p>
                         </div>
+                    </div>
+                    
+                    <!-- Форма подписки (оставлена на случай если нужна) -->
+                    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.2);">
+                        <h3 style="margin-bottom: 1rem;">Узнавайте о новинках первыми!</h3>
+                        <p style="margin-bottom: 1.5rem; opacity: 0.9;">Подпишитесь на рассылку и получайте скидку 10% на первый заказ</p>
+                        <form class="newsletter-form">
+                            <div class="form-group">
+                                <input type="email" id="newsletter-email" placeholder="Ваш email" required>
+                                <button type="submit" class="cta-button secondary">Подписаться</button>
+                            </div>
+                            <p class="form-note">Подписываясь, вы соглашаетесь с нашей политикой конфиденциальности</p>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -170,7 +187,55 @@
     </main>
 
     <footer role="contentinfo">
-        <!-- Твой существующий футер -->
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-section">
+                        <h3>🌺 R&O Flower</h3>
+                        <p>Дарим эмоции через цветы. Свежие букеты с доставкой по всему городу.</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram">📷 Instagram</a>
+                            <a href="#" aria-label="WhatsApp">💬 WhatsApp</a>
+                            <a href="#" aria-label="Telegram">✈️ Telegram</a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Магазин</h4>
+                        <ul>
+                            <li><a href="catalog.html">Все букеты</a></li>
+                            <li><a href="catalog.html?category=roses">Розы</a></li>
+                            <li><a href="catalog.html?category=tulips">Тюльпаны</a></li>
+                            <li><a href="catalog.html?category=seasonal">Сезонные</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Информация</h4>
+                        <ul>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                            <li><a href="#delivery">Доставка и оплата</a></li>
+                            <li><a href="#">Уход за цветами</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Контакты</h4>
+                        <address>
+                            <p>📞 +7 (923) 225-62-20</p>
+                            <p>📧 roma_bagantsov@vk.com</p>
+                            <p>🕒 Ежедневно 9:00-21:00</p>
+                            <p>🚚 Доставка 24/7</p>
+                        </address>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 R&O Flower. Все права защищены.</p>
+                    <div class="payment-methods">
+                        <span>Принимаем к оплате:</span>
+                        <span>💳 🅥 🄼 🄲</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Подключение JavaScript -->
