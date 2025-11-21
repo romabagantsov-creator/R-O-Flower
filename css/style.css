@@ -1,29 +1,28 @@
 :root {
-    /* Основные цвета цветочного магазина */
-    --primary-color: #e91e63;        /* Ярко-розовый - для цветов и акцентов */
-    --secondary-color: #4caf50;      /* Сочный зеленый - листья и растения */
-    --accent-color: #ff9800;         /* Теплый оранжевый - осенние цветы */
-    --soft-pink: #f8bbd9;            /* Нежно-розовый - фоновый */
-    --lavender: #e1bee7;             /* Лавандовый - цветочный акцент */
-    --cream: #fff8e1;                /* Кремовый - нейтральный фон */
-    --earth-brown: #8d6e63;          /* Землистый коричневый - горшки, стебли */
+    --primary-color: #388e3c;        /* Насыщенный зеленый */
+    --secondary-color: #c62828;      /* Глубокий красный */
+    --accent-color: #6d4c41;         /* Коричневый */
+    --soft-pink: #f8f6f2;            /* Кремово-белый */
+    --lavender: #d7ccc8;             /* Светло-бежевый */
+    --cream: #fffefc;                /* Чистый белый с теплым оттенком */
+    --earth-brown: #4e342e;          /* Шоколадный коричневый */
     
     /* Градиенты */
-    --gradient-start: #ff80ab;       /* Розовый градиент */
-    --gradient-end: #ea80fc;         /* Фиолетовый градиент */
+    --gradient-start: #2e7d32;       /* Изумрудный */
+    --gradient-end: #1b5e20;         /* Темно-зеленый */
     
     /* Текст */
-    --text-dark: #4e342e;            /* Темно-коричневый для читаемости */
-    --text-light: #fff;              /* Белый текст */
+    --text-dark: #263238;            /* Темно-серый с синим оттенком */
+    --text-light: #ffffff;           /* Белый текст */
     
     /* Фоны */
-    --bg-light: #f5f5f5;             /* Светло-серый фон */
+    --bg-light: #f5f5f5;             /* Светло-серый */
     --bg-white: #ffffff;             /* Чистый белый */
     
     /* Эффекты */
-    --shadow: 0 2px 15px rgba(142, 68, 173, 0.1);
-    --shadow-hover: 0 8px 25px rgba(142, 68, 173, 0.15);
-    --border-radius: 12px;
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    --shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.12);
+    --border-radius: 6px;
     --transition: all 0.3s ease;
 }
 * {
@@ -718,6 +717,7 @@ footer {
     background: var(--lavender);
     color: var(--text-dark);
 }
+
 
 
 
