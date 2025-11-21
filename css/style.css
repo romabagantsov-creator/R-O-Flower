@@ -792,3 +792,24 @@ footer {
     background: var(--lavender);
     color: var(--text-dark);
 }
+/* Дополнительные стили для выравнивания изображений */
+.product-image-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    margin-top: 20px; /* Добавляем отступ сверху */
+}
+
+/* Или если хочешь больше контроля над отдельными карточками */
+.product-card:first-child .product-image-container {
+    margin-top: 30px; /* Больший отступ для первой карточки */
+}
+
+.product-card:nth-child(2) .product-image-container {
+    margin-top: 20px; /* Средний отступ для второй */
+}
+
+.product-card:nth-child(3) .product-image-container {
+    margin-top: 15px; /* Меньший отступ для третьей */
+}
