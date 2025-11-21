@@ -793,8 +793,9 @@ footer {
     color: var(--text-dark);
 }
 .product-card:last-child .product-image-container {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
+
 
 
 
