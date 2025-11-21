@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="R&O Flower - онлайн магазин цветов. Свежие букеты, доставка, индивидуальные композиции. Дарите эмоции с нами!">
+    <meta name="keywords" content="цветы, букеты, доставка цветов, флорист, розы, тюльпаны, композиции">
+    <title>FloraBloom - Онлайн магазин цветов | Доставка свежих букетов</title>
+    
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Skip link для доступности -->
+    <a href="#main-content" class="skip-link">Перейти к основному содержанию</a>
+    
+    <header role="banner">
+        <nav class="navbar" role="navigation" aria-label="Основная навигация">
+            <div class="logo" aria-label="Логотип R&O Flower">
+            <img src="image/logo.png" alt="R&O Flower - магазин цветов" class="logo-image">
+            </div>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+                <span class="sr-only">Меню</span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="index.html" aria-current="page">Главная</a></li>
+                <li><a href="catalog.html">Букеты</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="delivery.html">Доставка</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <!-- Hero секция -->
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content">
+                <h1 id="hero-heading">R&O Flower - Дарите эмоции цветами!</h1>
+                <p>Свежие цветы с доставкой по городу. Создаем настроение каждый день</p>
+                <a href="catalog.html" class="cta-button" role="button">
+                    Выбрать букет
+                </a>
+            </div>
+        </section>
+        
+        <!-- Секция преимуществ -->
+        <section class="features" aria-labelledby="features-heading">
+            <div class="container">
+                <h2 id="features-heading" class="section-title">Почему выбирают именно нас</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚚</div>
+                        <h3>Быстрая доставка</h3>
+                        <p>Доставляем букеты в течение 2 часов по всему городу</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💐</div>
+                        <h3>Свежие цветы</h3>
+                        <p>Работаем напрямую с поставщиками, гарантия свежести</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Индивидуальный подход</h3>
+                        <p>Создаем уникальные композиции по вашему желанию</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция популярных букетов -->
+        <section class="popular" aria-labelledby="popular-heading">
+            <div class="container">
+                <h2 id="popular-heading" class="section-title">Популярные букеты</h2>
+                <div class="arrivals-grid">
+                    <div class="product-card">
+                        <div class="product-image-placeholder" style="background: linear-gradient(135deg, #ff6b6b, #ff8e8e);">
+                            <span>Розовая нежность</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Букет "Розовая нежность"</h3>
+                            <p>Нежные розы и пионы в элегантной композиции</p>
+                            <span class="price">2 990 ₽</span>
+                            <button class="cta-button small">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-placeholder" style="background: linear-gradient(135deg, #4ecdc4, #88d3ce);">
+                            <span>Весенний бриз</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Букет "Весенний бриз"</h3>
+                            <p>Тюльпаны и гипсофила в пастельных тонах</p>
+                            <span class="price">1 790 ₽</span>
+                            <button class="cta-button small">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-placeholder" style="background: linear-gradient(135deg, #45b7d1, #96cde3);">
+                            <span>Классика</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Букет "Классика"</h3>
+                            <p>Красные розы в традиционной упаковке</p>
+                            <span class="price">3 490 ₽</span>
+                            <button class="cta-button small">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-footer">
+                    <a href="catalog.html" class="cta-button secondary">Смотреть все букеты</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция поводов -->
+        <section class="occasions" aria-labelledby="occasions-heading">
+            <div class="container">
+                <h2 id="occasions-heading" class="section-title">Цветы для любого повода</h2>
+                <div class="occasions-grid">
+                    <div class="occasion-card">
+                        <h3>🎂 День рождения</h3>
+                        <p>Яркие и праздничные композиции</p>
+                    </div>
+                    <div class="occasion-card">
+                        <h3>💝 Любовь и романтика</h3>
+                        <p>Нежные букеты для особенных моментов</p>
+                    </div>
+                    <div class="occasion-card">
+                        <h3>👩‍💼 Бизнес-букеты</h3>
+                        <p>Строгие и элегантные композиции</p>
+                    </div>
+                    <div class="occasion-card">
+                        <h3>😊 Просто так</h3>
+                        <p>Чтобы поднять настроение близким</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция подписки -->
+        <section class="newsletter" aria-labelledby="newsletter-heading">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2 id="newsletter-heading">Узнавайте о новинках первыми!</h2>
+                    <p>Подпишитесь на рассылку и получайте скидку 10% на первый заказ</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" id="newsletter-email" placeholder="Ваш email" required>
+                            <button type="submit" class="cta-button secondary">Подписаться</button>
+                        </div>
+                        <p class="form-note">Подписываясь, вы соглашаетесь с нашей политикой конфиденциальности</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-section">
+                        <h3>🌺 R&O Flower</h3>
+                        <p>Дарим эмоции через цветы. Свежие букеты с доставкой по всему городу.</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram">📷 Instagram</a>
+                            <a href="#" aria-label="WhatsApp">💬 WhatsApp</a>
+                            <a href="#" aria-label="Telegram">✈️ Telegram</a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Магазин</h4>
+                        <ul>
+                            <li><a href="catalog.html">Все букеты</a></li>
+                            <li><a href="catalog.html?category=roses">Розы</a></li>
+                            <li><a href="catalog.html?category=tulips">Тюльпаны</a></li>
+                            <li><a href="catalog.html?category=seasonal">Сезонные</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Информация</h4>
+                        <ul>
+                            <li><a href="about.html">О нас</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                            <li><a href="delivery.html">Доставка и оплата</a></li>
+                            <li><a href="#">Уход за цветами</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Контакты</h4>
+                        <address>
+                            <p>📞 +7 (923) 225-62-20</p>
+                            <p>📧 roma_bagantsov@vk.com</p>
+                            <p>🕒 Ежедневно 9:00-21:00</p>
+                            <p>🚚 Доставка 24/7</p>
+                        </address>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 R&O Flower. Все права защищены.</p>
+                    <div class="payment-methods">
+                        <span>Принимаем к оплате:</span>
+                        <span>💳 🅥 🄼 🄲</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
