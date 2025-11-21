@@ -797,15 +797,7 @@ footer {
     margin-bottom: 30px;
 }
 
-/* Или если нужно для всех карточек с изображениями */
-.product-card .product-image-container {
-    margin-bottom: 20px;
-}
 
-/* Или конкретно для третьей карточки, если у неё есть особый класс */
-.product-card:last-child .product-image-container {
-    margin-bottom: 25px;
-}
 
 
 
