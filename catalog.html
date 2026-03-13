@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Каталог цветов R&O Flower — свежие букеты роз, тюльпанов, пионов. Доставка по Москве.">
+    <meta name="keywords" content="букеты, розы, тюльпаны, пионы, купить цветы, доставка цветов">
+    <title>Каталог букетов | R&O Flower - Онлайн магазин цветов</title>
+
+    <!-- Подключение общего CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Ссылка для доступности -->
+    <a href="#main-content" class="skip-link">Перейти к каталогу</a>
+
+    <header role="banner">
+        <nav class="navbar" role="navigation" aria-label="Основная навигация">
+            <div class="logo" aria-label="Логотип R&O Flower">
+                <img src="image/logo.png" alt="R&O Flower - магазин цветов" class="logo-image">
+            </div>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+                <span class="sr-only">Меню</span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html" aria-current="page">Каталог</a></li>
+                <li><a href="index.html#about">О нас</a></li>
+                <li><a href="index.html#delivery">Доставка</a></li>
+                <li><a href="index.html#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <!-- Заголовок каталога -->
+        <section class="catalog-hero" aria-labelledby="catalog-heading">
+            <div class="container">
+                <h1 id="catalog-heading">Все букеты</h1>
+                <p>Выберите идеальный букет для любого повода</p>
+            </div>
+        </section>
+
+        <!-- Фильтры (простая версия) -->
+        <section class="filters-section">
+            <div class="container">
+                <div class="filters">
+                    <a href="catalog.html" class="filter-btn active">Все</a>
+                    <a href="catalog.html?category=roses" class="filter-btn">Розы</a>
+                    <a href="catalog.html?category=tulips" class="filter-btn">Тюльпаны</a>
+                    <a href="catalog.html?category=peonies" class="filter-btn">Пионы</a>
+                    <a href="catalog.html?category=budget" class="filter-btn">До 2000 ₽</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Каталог товаров -->
+        <section class="catalog-products" aria-labelledby="products-heading">
+            <div class="container">
+                <h2 id="products-heading" class="section-title">Наши букеты</h2>
+                <div class="arrivals-grid">
+                    <!-- Букет 1 -->
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <img src="image/pink softness.jpg" alt="Букет Розовая нежность" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="overlay-content">
+                                    <h4>Идеально для:</h4>
+                                    <p>Романтических свиданий, дней рождений и особых моментов.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Букет "Розовая нежность"</h3>
+                            <p>Нежные розы и пионы в элегантной композиции</p>
+                            <span class="price">2 990 ₽</span>
+                            <button class="cta-button small">В корзину</button>
+                        </div>
+                    </div>
+
+                    <!-- Букет 2 -->
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <img src="image/spring breeze.jpg" alt="Букет Весенний бриз" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="overlay-content">
+                                    <h4>Идеально для:</h4>
+                                    <p>Весенних праздников и подарков коллегам.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Букет "Весенний бриз"</h3>
+                            <p>Тюльпаны и гипсофила в пастельных тонах</p>
+                            <span class="price">1 790 ₽</span>
+                            <button class="cta-button small">В корзину</button>
+                        </div>
+                    </div>
+
+                    <!-- Букет 3 -->
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <img src="image/Classica.jpg" alt="Букет Классика" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="overlay-content">
+                                    <h4>Идеально для:</h4>
+                                    <p>Признаний в любви, юбилеев и торжественных мероприятий.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Букет "Классика"</h3>
+                            <p>Красные розы в традиционной упаковке</p>
+                            <span class="price">3 490 ₽</span>
+                            <button class="cta-button small">В корзину</button>
+                        </div>
+                    </div>
+
+                    <!-- Букет 4 -->
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <img src="image/sunshine.jpg" alt="Букет Солнечный день" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="overlay-content">
+                                    <h4>Идеально для:</h4>
+                                    <p>Поднятия настроения, благодарности, дружеских встреч.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Букет "Солнечный день"</h3>
+                            <p>Яркие герберы и хризантемы в солнечной композиции</p>
+                            <span class="price">2 290 ₽</span>
+                            <button class="cta-button small">В корзину</button>
+                        </div>
+                    </div>
+
+                    <!-- Букет 5 -->
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <img src="image/elegance.jpg" alt="Букет Элегантность" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="overlay-content">
+                                    <h4>Идеально для:</h4>
+                                    <p>Особенных женщин, деловых подарков и вечерних событий.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Букет "Элегантность"</h3>
+                            <p>Лилии и орхидеи в стильной упаковке</p>
+                            <span class="price">4 590 ₽</span>
+                            <button class="cta-button small">В корзину</button>
+                        </div>
+                    </div>
+
+                    <!-- Букет 6 -->
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <img src="image/fresh morning.jpg" alt="Букет Свежее утро" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="overlay-content">
+                                    <h4>Идеально для:</h4>
+                                    <p>Утреннего сюрприза, дня рождения или просто "потому что".</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Букет "Свежее утро"</h3>
+                            <p>Микс из полевых цветов в нежной упаковке</p>
+                            <span class="price">1 490 ₽</span>
+                            <button class="cta-button small">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал (можно оставить как в index.html) -->
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-section">
+                        <h3>🌺 R&O Flower</h3>
+                        <p>Дарим эмоции через цветы. Свежие букеты с доставкой по всему городу.</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram">📷 Instagram</a>
+                            <a href="#" aria-label="WhatsApp">💬 WhatsApp</a>
+                            <a href="#" aria-label="Telegram">✈️ Telegram</a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Магазин</h4>
+                        <ul>
+                            <li><a href="catalog.html" aria-current="page">Все букеты</a></li>
+                            <li><a href="catalog.html?category=roses">Розы</a></li>
+                            <li><a href="catalog.html?category=tulips">Тюльпаны</a></li>
+                            <li><a href="catalog.html?category=seasonal">Сезонные</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Информация</h4>
+                        <ul>
+                            <li><a href="index.html#about">О нас</a></li>
+                            <li><a href="index.html#contacts">Контакты</a></li>
+                            <li><a href="index.html#delivery">Доставка и оплата</a></li>
+                            <li><a href="#">Уход за цветами</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Контакты</h4>
+                        <address>
+                            <p>📞 +7 (923) 225-62-20</p>
+                            <p>📧 roma_bagantsov@vk.com</p>
+                            <p>🕒 Ежедневно 9:00–21:00</p>
+                            <p>🚚 Доставка 24/7</p>
+                        </address>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 R&O Flower. Все права защищены.</p>
+                    <div class="payment-methods">
+                        <span>Принимаем к оплате:</span>
+                        <span>💳 🅥 🄼 🄲</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
